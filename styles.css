@@ -1,0 +1,86 @@
+
+
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    flex: 1;
+}
+
+@font-face {
+    font-family: DOS;
+    src: url("media/fonts/DOS.ttf");
+}
+
+h1{
+    font-family: DOS;
+    font-size: 500%;
+    margin:0px;
+    text-align-last: center;
+}
+p{
+    font-family: DOS;
+    font-size: 150%;
+    margin:0px;
+    text-align-last: center;
+}
+nav .logo1 img{
+    height: 90px;
+    width: 100px;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    float: left;
+    margin:0px;
+}
+nav .logo2 img{
+    height: 90px;
+    width: 100px;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    float: right;
+    margin:0px;
+}
+nav .bar img{
+    height: 20px;
+    width: 100000000000px;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+}
+
+nav .about img{
+    margin: 0px;
+    height: 45px;
+    width: 45px;
+    float: left;
+    display:block;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+}
+
+nav .other img{
+    margin: 0px;
+    margin-left: 20px;
+    height: 45px;
+    width: 45px;
+    float: left;
+    display:block;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+}
+
+nav .home img{
+    height: 40px;
+    width: 45px;
+    display:block;
+    float: right;
+    margin-right: 20px;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+}
+
+html{
+    background-color: rgb(23, 23, 23);
+    color: lightgray;
+}
